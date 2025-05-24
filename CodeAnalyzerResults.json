@@ -1,0 +1,140 @@
+{
+  "runDir": "D:\\DocumentStudio\\DocumentStudio\\",
+  "violationCounts": {
+    "total": 5,
+    "sev1": 0,
+    "sev2": 0,
+    "sev3": 5,
+    "sev4": 0,
+    "sev5": 0
+  },
+  "versions": {
+    "code-analyzer": "0.28.0",
+    "eslint": "0.23.0",
+    "retire-js": "0.21.0",
+    "regex": "0.21.0",
+    "pmd": "0.24.0"
+  },
+  "violations": [
+    {
+      "rule": "ProtectSensitiveData",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "AppExchange",
+        "Security",
+        "XML"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app\\main\\default\\objects\\adm_Component_Filter_Line__c\\fields\\adm_TemporaryKey__c.field-meta.xml",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 11,
+          "endColumn": 14
+        }
+      ],
+      "message": "adm_TemporaryKey__c is a potential auth token in a custom object: adm_Component_Filter_Line__c",
+      "resources": [
+        "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/rules-pmd-appexchange.html#protectsensitivedata"
+      ]
+    },
+    {
+      "rule": "ProtectSensitiveData",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "AppExchange",
+        "Security",
+        "XML"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app\\main\\default\\objects\\adm_Component__c\\fields\\adm_IsPrivate__c.field-meta.xml",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 8,
+          "endColumn": 14
+        }
+      ],
+      "message": "adm_IsPrivate__c is a potential auth token in a custom object: adm_Component__c",
+      "resources": [
+        "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/rules-pmd-appexchange.html#protectsensitivedata"
+      ]
+    },
+    {
+      "rule": "ProtectSensitiveData",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "AppExchange",
+        "Security",
+        "XML"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app\\main\\default\\objects\\adm_Component__c\\fields\\adm_SignatureNames__c.field-meta.xml",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 11,
+          "endColumn": 14
+        }
+      ],
+      "message": "adm_SignatureNames__c is a potential auth token in a custom object: adm_Component__c",
+      "resources": [
+        "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/rules-pmd-appexchange.html#protectsensitivedata"
+      ]
+    },
+    {
+      "rule": "ProtectSensitiveData",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "AppExchange",
+        "Security",
+        "XML"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app\\main\\default\\objects\\adm_Component__c\\fields\\adm_SignerNames__c.field-meta.xml",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 8,
+          "endColumn": 14
+        }
+      ],
+      "message": "adm_SignerNames__c is a potential auth token in a custom object: adm_Component__c",
+      "resources": [
+        "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/rules-pmd-appexchange.html#protectsensitivedata"
+      ]
+    },
+    {
+      "rule": "ProtectSensitiveData",
+      "engine": "pmd",
+      "severity": 3,
+      "tags": [
+        "AppExchange",
+        "Security",
+        "XML"
+      ],
+      "primaryLocationIndex": 0,
+      "locations": [
+        {
+          "file": "force-app\\main\\default\\objects\\adm_Component__c\\fields\\adm_SignerNames_c__c.field-meta.xml",
+          "startLine": 1,
+          "startColumn": 1,
+          "endLine": 9,
+          "endColumn": 14
+        }
+      ],
+      "message": "adm_SignerNames_c__c is a potential auth token in a custom object: adm_Component__c",
+      "resources": [
+        "https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/guide/rules-pmd-appexchange.html#protectsensitivedata"
+      ]
+    }
+  ]
+}
